@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "crowd-funding",
   "version": "1.0.0",
   "description": "",
@@ -26,4 +27,16 @@
     "eslint-config-prettier": "^6.15.0",
     "prettier": "^2.1.2"
   }
+=======
+  "name": "model-view-controller",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+>>>>>>> 428a04f49e24888fd41fe6465ac1c877c77d753d
 }
