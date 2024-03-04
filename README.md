@@ -1,3 +1,5 @@
+Tech Blog
+Description
 The Tech Blog is a CMS-style blog site designed for developers to publish their articles, blog posts, and thoughts about various tech-related topics. It follows the MVC (Model-View-Controller) architectural pattern and utilizes Handlebars.js as the templating language, Sequelize as the ORM (Object-Relational Mapping), and the express-session npm package for authentication. With this application, developers can easily create an account, log in, create new blog posts, comment on existing posts, update their posts, and delete their posts.
 
 User Story
@@ -11,6 +13,8 @@ On the homepage, users can view existing blog posts, including the post title an
 Users can click on an existing blog post to view its details, leave comments, and see comments from other users.
 Users can access their dashboard to view and manage their own blog posts, including adding new posts, updating existing posts, and deleting posts.
 Users can log out of the site, and if idle for more than a set time, they will be prompted to log in again before performing any actions.
+
+
 Technologies Used
 Frontend:
 HTML/CSS
@@ -25,15 +29,18 @@ Database:
 MySQL or PostgreSQL (configured through Sequelize)
 Deployment:
 Heroku
+
+
 Installation
 To run the Tech Blog locally, follow these steps:
 
-Clone the repository: git clone https://github.com/your-username/tech-blog.git
+Clone the repository
 Install dependencies: npm install
 Set up the database configuration in the .env file.
 Initialize the database schema and seed data (if provided).
 Start the server: npm start
 Access the application at http://localhost:3000 in your web browser.
+
 Usage
 Upon visiting the site, users can browse existing blog posts on the homepage.
 To interact with the site's features, users need to sign up for an account or log in if they already have one.
